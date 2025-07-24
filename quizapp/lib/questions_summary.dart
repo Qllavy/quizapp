@@ -7,8 +7,11 @@ class QuestionsSummary extends StatelessWidget {
 
   @override
   Widget build(context) {
+    final isLandscape =
+        MediaQuery.of(context).orientation == Orientation.landscape;
+
     return SizedBox(
-      height: 300,
+      height: isLandscape ? 120 : 400,
       child: SingleChildScrollView(
         child: Column(
           children: summaryData.map((data) {

@@ -8,20 +8,23 @@ class StartScreen extends StatelessWidget {
 
   @override
   Widget build(context) {
+    final isLandscape =
+        MediaQuery.of(context).orientation == Orientation.landscape;
+
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
             'assets/images/quiz-logo.png',
-            width: 300,
+            width: isLandscape ? 150 : 300,
             color: const Color.fromARGB(125, 255, 255, 255),
           ),
           // Opacity(
           //   opacity: 0.6,
           //   child: Image.asset('assets/images/quiz-logo.png', width: 300),
           // ),
-          const SizedBox(height: 80),
+          SizedBox(height: isLandscape ? 40 : 80),
           Text(
             'Kliknij aby rozpocząć!',
             style: GoogleFonts.lato(
