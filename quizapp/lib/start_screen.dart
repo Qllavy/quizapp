@@ -24,7 +24,7 @@ class StartScreen extends StatelessWidget {
           //   opacity: 0.6,
           //   child: Image.asset('assets/images/quiz-logo.png', width: 300),
           // ),
-          SizedBox(height: isLandscape ? 40 : 80),
+          SizedBox(height: isLandscape ? 30 : 80),
           Text(
             'Kliknij aby rozpocząć!',
             style: GoogleFonts.lato(

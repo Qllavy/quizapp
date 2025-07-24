@@ -1,43 +1,64 @@
 import 'package:quizapp/models/quiz_question.dart';
 
 const questions = [
-  QuizQuestion('What are the main building blocks of Flutter UIs?', [
-    'Widgets',
-    'Components',
-    'Blocks',
-    'Functions',
+  QuizQuestion('Co określa misja firmy?', [
+    'Powód istnienia firmy i jej cele',
+    'Strategię sprzedaży na rynkach zagranicznych',
+    'Przychody i koszty przedsiębiorstwa',
+    'Wysokość wynagrodzenia pracowników',
   ]),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
+  QuizQuestion('Dlaczego ważne jest poznanie grupy docelowej?', [
+    'Aby skuteczniej dopasować ofertę do potrzeb klientów',
+    'Aby uniknąć płacenia podatków',
+    'Żeby lepiej zarządzać zespołem',
+    'Żeby łatwiej znaleźć lokal na biuro',
   ]),
-  QuizQuestion('What\'s the purpose of a StatefulWidget?', [
-    'Update UI as data changes',
-    'Update data as UI changes',
-    'Ignore data changes',
-    'Render UI that does not depend on data',
+  QuizQuestion('Co opisuje model biznesowy firmy?', [
+    'Sposób, w jaki firma tworzy, dostarcza i zarabia na wartości',
+    'Logo i identyfikację wizualną',
+    'Dokumenty finansowe spółki',
+    'Liczbę pracowników i strukturę zespołu',
   ]),
-  QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
-    [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
-    ],
-  ),
-  QuizQuestion('What happens if you change data in a StatelessWidget?', [
-    'The UI is not updated',
-    'The UI is updated',
-    'The closest StatefulWidget is updated',
-    'Any nested StatefulWidgets are updated',
+  QuizQuestion('Co jest kluczowe w zarządzaniu finansami firmy?', [
+    'Kontrola przychodów, kosztów i płynności finansowej',
+    'Codzienne drukowanie faktur',
+    'Wydawanie całego budżetu na reklamę',
+    'Stałe inwestowanie w kryptowaluty',
   ]),
-  QuizQuestion('How should you update data inside of StatefulWidgets?', [
-    'By calling setState()',
-    'By calling updateData()',
-    'By calling updateUI()',
-    'By calling updateState()',
+  QuizQuestion('Co jest głównym celem działań marketingowych?', [
+    'Promowanie produktów i przyciąganie klientów',
+    'Zarządzanie czasem pracy zespołu',
+    'Obniżenie kosztów pracowniczych',
+    'Kontrola jakości produktów',
+  ]),
+  QuizQuestion('Dlaczego dobra obsługa klienta jest ważna?', [
+    'Bo buduje lojalność i pozytywny wizerunek firmy',
+    'Ponieważ zwiększa koszty operacyjne',
+    'Aby zmniejszyć zapasy magazynowe',
+    'Bo pozwala szybciej zakończyć rozmowę sprzedażową',
+  ]),
+  QuizQuestion('Co pomaga uniknąć chaosu w funkcjonowaniu firmy?', [
+    'Jasny podział ról i uporządkowane procesy',
+    'Losowe podejmowanie decyzji',
+    'Częste zmiany kadrowe',
+    'Brak planowania i strategii',
+  ]),
+  QuizQuestion('Co jest kluczowe przy budowaniu zespołu?', [
+    'Dobór osób o odpowiednich kompetencjach i wartościach',
+    'Zatrudnianie wyłącznie rodziny',
+    'Ignorowanie potrzeb pracowników',
+    'Przydzielanie tych samych zadań wszystkim',
+  ]),
+  QuizQuestion('Dlaczego firma powinna się dostosowywać do zmian rynkowych?', [
+    'Aby pozostać konkurencyjną i odpowiadać na nowe potrzeby klientów',
+    'Aby unikać innowacji',
+    'Aby móc szybciej zamknąć działalność',
+    'Żeby zachować stare produkty na rynku',
+  ]),
+  QuizQuestion('Dlaczego przestrzeganie prawa i etyki w biznesie jest ważne?', [
+    'Bo to buduje zaufanie i chroni firmę przed konsekwencjami prawnymi',
+    'Aby mieć więcej wolności podatkowej',
+    'Żeby uniknąć tworzenia dokumentacji',
+    'Żeby móc zwalniać pracowników bez powodu',
   ]),
 ];
